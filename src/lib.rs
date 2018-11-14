@@ -1,6 +1,9 @@
 //! Comparing performance of various buffer implementations.
 
+extern crate xi_rope;
+
 mod std_string;
+mod xi_rope_2;
 mod compliance;
 
 pub use compliance::check_compliance;
