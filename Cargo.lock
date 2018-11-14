@@ -1,0 +1,23 @@
+[[package]]
+name = "buffer-bench"
+version = "0.1.0"
+dependencies = [
+ "xi-rope 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bytecount"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "xi-rope"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "bytecount 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum bytecount 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" = "4bbeb7c30341fce29f6078b4bdf876ea4779600866e98f5b2d203a534f195050"
+"checksum xi-rope 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "419004930a5f8e15f1e94b963a2f3b4b73f6213a6e46c6c995f2e8ba93aaac98"
