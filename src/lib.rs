@@ -2,6 +2,7 @@
 
 extern crate xi_rope;
 extern crate xi_rope_master;
+extern crate xi_rope_rc as xi_rope_rc_crate;
 extern crate ropey as ropey_crate;
 
 mod compliance;
@@ -9,6 +10,7 @@ mod compliance;
 mod std_string;
 mod xi_rope_2;
 mod xi_rope_3;
+mod xi_rope_rc;
 mod ropey;
 
 pub use compliance::check_compliance;

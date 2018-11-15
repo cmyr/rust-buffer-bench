@@ -10,6 +10,9 @@ ropey = "0.9.2"
 [dependencies.xi_rope_master]
 path = "./xi_rope_master"
 
+[dependencies.xi_rope_rc]
+path = "./xi_rope_rc"
+
 [dev-dependencies]
 criterion = "0.2"
 
