@@ -1,2 +1,3 @@
 /target
 **/*.rs.bk
+/xi_rope_master/target

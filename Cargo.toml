@@ -5,3 +5,14 @@ authors = ["Colin Rofls <colin@cmyr.net>"]
 
 [dependencies]
 xi-rope = "0.2"
+ropey = "0.9.2"
+
+[dependencies.xi_rope_master]
+path = "./xi_rope_master"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "buffer"
+harness = false

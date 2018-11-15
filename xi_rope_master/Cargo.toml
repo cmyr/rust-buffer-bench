@@ -1,0 +1,7 @@
+[package]
+name = "xi_rope_master"
+version = "0.1.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+
+[dependencies.xi-rope]
+git = "https://github.com/xi-editor/xi-editor.git"

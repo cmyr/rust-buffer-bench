@@ -1,7 +1,9 @@
 //! Benchmark impls for `std::String`
 
 use std::borrow::Cow;
+
 use super::{Buffer, RangeConvertable};
+#[cfg(test)] use super::compliance::check_compliance;
 
 impl Buffer for String {
     fn new(text: &str) -> Self {
@@ -37,4 +39,9 @@ impl Buffer for String {
     fn get_contents(&self) -> Cow<str> {
         Cow::Borrowed(self.as_str())
     }
+}
+
+#[test]
+fn check() {
+    check_compliance::<String>();
 }

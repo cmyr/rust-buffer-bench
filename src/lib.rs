@@ -1,10 +1,15 @@
 //! Comparing performance of various buffer implementations.
 
 extern crate xi_rope;
+extern crate xi_rope_master;
+extern crate ropey as ropey_crate;
+
+mod compliance;
 
 mod std_string;
 mod xi_rope_2;
-mod compliance;
+mod xi_rope_3;
+mod ropey;
 
 pub use compliance::check_compliance;
 
